@@ -17,22 +17,27 @@ My name is Andrei Bobrov. I am 35 y.o. I have two degrees. I want to be a progra
 * Figma
 # My code example
 ```<script>
-        var modal = document.getElementById("myModal");
-        var btn = document.getElementById("myBtn");
-        var span = document.getElementsByClassName("close")[0];
-        btn.onclick = function () {
-            modal.style.display = "block";
-        }
+   var elems = document.getElementsByClassName('plus');
 
-        span.onclick = function () {
-            modal.style.display = "none";
+for (var i = 0; i < elems.length; i++) {
+    var elem = elems[i];
+    elem.addEventListener('click', function (event) {
+        var plusBtn = event.currentTarget;
+        if (plusBtn.dataset.open === 'false') {
+            plusBtn.style.transform = 'rotate(45deg)';
+            plusBtn.dataset.open = 'true';
+            var id = plusBtn.dataset.id;
+            var currectP = document.querySelector('li:nth-child(' + id + ') p');
+            currectP.style.display = 'block';
+        } else{
+            plusBtn.style.transform = 'rotate(0deg)';
+            plusBtn.dataset.open = 'false';
+            var id = plusBtn.dataset.id;
+            var currectP = document.querySelector('li:nth-child(' + id + ') p');
+            currectP.style.display = 'none';
         }
-
-        window.onclick = function (event) {
-            if (event.target == modal) {
-                modal.style.display = "none";
-            }
-        }
+    })
+}
     </script>
 ```
 # My experience
