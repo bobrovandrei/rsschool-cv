@@ -14,6 +14,7 @@ My name is Andrei Bobrov. I am 35 y.o. I have two degrees. I want to be a progra
 * GitHub
 * JS
 * Bootstrap
+* Figma
 # My code example
 ```<script>
         var modal = document.getElementById("myModal");
