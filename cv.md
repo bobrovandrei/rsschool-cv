@@ -34,3 +34,15 @@ My name is Andrei Bobrov. I am 35 y.o. I have two degrees. I want to be a progra
         }
     </script>
 ```
+# My experience
+* https://bobrovandrei.github.io/bobrov/lessons/final/kugoo/kugoo.html
+* https://bobrovandrei.github.io/tires/
+* https://bobrovandrei.github.io/infoC/
+# My education
+* BSEU (economist)
+* MVD Akademy (lawyer)
+* It-academy (frontend developer)
+# Languages
+* Belarusian
+* Russian
+* English (B2)
